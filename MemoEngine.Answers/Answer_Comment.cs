@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MemoEngine.Answers
 {
-    public class Answer_Comment
+    public class AnswerComment
     {
         /// <summary>
         /// Id - 일련번호
