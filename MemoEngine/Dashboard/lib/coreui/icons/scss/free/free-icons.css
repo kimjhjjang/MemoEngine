@@ -1,0 +1,1687 @@
+@charset "UTF-8";
+/*!
+ * CoreUI Icons Free Open Source Icons
+ * @version v2.0.0-beta.3
+ * @link https://coreui.io/icons
+ * Copyright (c) 2020 creativeLabs Łukasz Holeczek
+ * Licensed under MIT (https://coreui.io/icons/license)
+ */
+@font-face {
+  font-family: 'CoreUI-Icons-Free';
+  src: url("../fonts/CoreUI-Icons-Free.eot?64h6xh");
+  src: url("../fonts/CoreUI-Icons-Free.eot?64h6xh#iefix") format("embedded-opentype"), url("../fonts/CoreUI-Icons-Free.ttf?64h6xh") format("truetype"), url("../fonts/CoreUI-Icons-Free.woff?64h6xh") format("woff"), url("../fonts/CoreUI-Icons-Free.svg?64h6xh#CoreUI-Icons-Free") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+[class^="cil-"], [class*=" cil-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'CoreUI-Icons-Free' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.cil-3d:before {
+  content: ""; }
+
+.cil-4k:before {
+  content: ""; }
+
+.cil-account-logout:before {
+  content: ""; }
+
+.cil-action-redo:before {
+  content: ""; }
+
+.cil-action-undo:before {
+  content: ""; }
+
+.cil-address-book:before {
+  content: ""; }
+
+.cil-airplane-mode:before {
+  content: ""; }
+
+.cil-airplane-mode-off:before {
+  content: ""; }
+
+.cil-airplay:before {
+  content: ""; }
+
+.cil-alarm:before {
+  content: ""; }
+
+.cil-album:before {
+  content: ""; }
+
+.cil-align-center:before {
+  content: ""; }
+
+.cil-align-left:before {
+  content: ""; }
+
+.cil-align-right:before {
+  content: ""; }
+
+.cil-american-football:before {
+  content: ""; }
+
+.cil-animal:before {
+  content: ""; }
+
+.cil-aperture:before {
+  content: ""; }
+
+.cil-apple:before {
+  content: ""; }
+
+.cil-applications:before {
+  content: ""; }
+
+.cil-applications-settings:before {
+  content: ""; }
+
+.cil-apps:before {
+  content: ""; }
+
+.cil-apps-settings:before {
+  content: ""; }
+
+.cil-arrow-bottom:before {
+  content: ""; }
+
+.cil-arrow-circle-bottom:before {
+  content: ""; }
+
+.cil-arrow-circle-left:before {
+  content: ""; }
+
+.cil-arrow-circle-right:before {
+  content: ""; }
+
+.cil-arrow-circle-top:before {
+  content: ""; }
+
+.cil-arrow-left:before {
+  content: ""; }
+
+.cil-arrow-right:before {
+  content: ""; }
+
+.cil-arrow-thick-bottom:before {
+  content: ""; }
+
+.cil-arrow-thick-from-bottom:before {
+  content: ""; }
+
+.cil-arrow-thick-from-left:before {
+  content: ""; }
+
+.cil-arrow-thick-from-right:before {
+  content: ""; }
+
+.cil-arrow-thick-from-top:before {
+  content: ""; }
+
+.cil-arrow-thick-left:before {
+  content: ""; }
+
+.cil-arrow-thick-right:before {
+  content: ""; }
+
+.cil-arrow-thick-to-bottom:before {
+  content: ""; }
+
+.cil-arrow-thick-to-left:before {
+  content: ""; }
+
+.cil-arrow-thick-to-right:before {
+  content: ""; }
+
+.cil-arrow-thick-to-top:before {
+  content: ""; }
+
+.cil-arrow-thick-top:before {
+  content: ""; }
+
+.cil-arrow-top:before {
+  content: ""; }
+
+.cil-assistive-listening-system:before {
+  content: ""; }
+
+.cil-asterisk:before {
+  content: ""; }
+
+.cil-asterisk-circle:before {
+  content: ""; }
+
+.cil-at:before {
+  content: ""; }
+
+.cil-audio:before {
+  content: ""; }
+
+.cil-audio-description:before {
+  content: ""; }
+
+.cil-audio-spectrum:before {
+  content: ""; }
+
+.cil-av-timer:before {
+  content: ""; }
+
+.cil-baby:before {
+  content: ""; }
+
+.cil-baby-carriage:before {
+  content: ""; }
+
+.cil-backspace:before {
+  content: ""; }
+
+.cil-badge:before {
+  content: ""; }
+
+.cil-balance-scale:before {
+  content: ""; }
+
+.cil-ban:before {
+  content: ""; }
+
+.cil-bank:before {
+  content: ""; }
+
+.cil-bar-chart:before {
+  content: ""; }
+
+.cil-barcode:before {
+  content: ""; }
+
+.cil-baseball:before {
+  content: ""; }
+
+.cil-basket:before {
+  content: ""; }
+
+.cil-basketball:before {
+  content: ""; }
+
+.cil-bath:before {
+  content: ""; }
+
+.cil-bathroom:before {
+  content: ""; }
+
+.cil-battery-0:before {
+  content: ""; }
+
+.cil-battery-3:before {
+  content: ""; }
+
+.cil-battery-5:before {
+  content: ""; }
+
+.cil-battery-alert:before {
+  content: ""; }
+
+.cil-battery-empty:before {
+  content: ""; }
+
+.cil-battery-full:before {
+  content: ""; }
+
+.cil-battery-slash:before {
+  content: ""; }
+
+.cil-beach-access:before {
+  content: ""; }
+
+.cil-beaker:before {
+  content: ""; }
+
+.cil-bed:before {
+  content: ""; }
+
+.cil-bell:before {
+  content: ""; }
+
+.cil-bell-exclamation:before {
+  content: ""; }
+
+.cil-bike:before {
+  content: ""; }
+
+.cil-birthday-cake:before {
+  content: ""; }
+
+.cil-blind:before {
+  content: ""; }
+
+.cil-bluetooth:before {
+  content: ""; }
+
+.cil-blur:before {
+  content: ""; }
+
+.cil-blur-circular:before {
+  content: ""; }
+
+.cil-blur-linear:before {
+  content: ""; }
+
+.cil-boat-alt:before {
+  content: ""; }
+
+.cil-bold:before {
+  content: ""; }
+
+.cil-bolt:before {
+  content: ""; }
+
+.cil-bolt-circle:before {
+  content: ""; }
+
+.cil-book:before {
+  content: ""; }
+
+.cil-bookmark:before {
+  content: ""; }
+
+.cil-border-all:before {
+  content: ""; }
+
+.cil-border-bottom:before {
+  content: ""; }
+
+.cil-border-clear:before {
+  content: ""; }
+
+.cil-border-horizontal:before {
+  content: ""; }
+
+.cil-border-inner:before {
+  content: ""; }
+
+.cil-border-left:before {
+  content: ""; }
+
+.cil-border-outer:before {
+  content: ""; }
+
+.cil-border-right:before {
+  content: ""; }
+
+.cil-border-style:before {
+  content: ""; }
+
+.cil-border-top:before {
+  content: ""; }
+
+.cil-border-vertical:before {
+  content: ""; }
+
+.cil-bowling:before {
+  content: ""; }
+
+.cil-braille:before {
+  content: ""; }
+
+.cil-briefcase:before {
+  content: ""; }
+
+.cil-brightness:before {
+  content: ""; }
+
+.cil-british-pound:before {
+  content: ""; }
+
+.cil-browser:before {
+  content: ""; }
+
+.cil-brush:before {
+  content: ""; }
+
+.cil-brush-alt:before {
+  content: ""; }
+
+.cil-bug:before {
+  content: ""; }
+
+.cil-building:before {
+  content: ""; }
+
+.cil-bullhorn:before {
+  content: ""; }
+
+.cil-burger:before {
+  content: ""; }
+
+.cil-burn:before {
+  content: ""; }
+
+.cil-bus-alt:before {
+  content: ""; }
+
+.cil-calculator:before {
+  content: ""; }
+
+.cil-calendar:before {
+  content: ""; }
+
+.cil-calendar-check:before {
+  content: ""; }
+
+.cil-camera:before {
+  content: ""; }
+
+.cil-camera-control:before {
+  content: ""; }
+
+.cil-camera-roll:before {
+  content: ""; }
+
+.cil-car-alt:before {
+  content: ""; }
+
+.cil-caret-bottom:before {
+  content: ""; }
+
+.cil-caret-left:before {
+  content: ""; }
+
+.cil-caret-right:before {
+  content: ""; }
+
+.cil-caret-top:before {
+  content: ""; }
+
+.cil-cart:before {
+  content: ""; }
+
+.cil-cash:before {
+  content: ""; }
+
+.cil-casino:before {
+  content: ""; }
+
+.cil-cast:before {
+  content: ""; }
+
+.cil-cat:before {
+  content: ""; }
+
+.cil-cc:before {
+  content: ""; }
+
+.cil-center-focus:before {
+  content: ""; }
+
+.cil-chart:before {
+  content: ""; }
+
+.cil-chart-line:before {
+  content: ""; }
+
+.cil-chart-pie:before {
+  content: ""; }
+
+.cil-chat-bubble:before {
+  content: ""; }
+
+.cil-check:before {
+  content: ""; }
+
+.cil-check-alt:before {
+  content: ""; }
+
+.cil-check-circle:before {
+  content: ""; }
+
+.cil-chevron-bottom:before {
+  content: ""; }
+
+.cil-chevron-circle-down-alt:before {
+  content: ""; }
+
+.cil-chevron-circle-left-alt:before {
+  content: ""; }
+
+.cil-chevron-circle-right-alt:before {
+  content: ""; }
+
+.cil-chevron-circle-up-alt:before {
+  content: ""; }
+
+.cil-chevron-double-down:before {
+  content: ""; }
+
+.cil-chevron-double-left:before {
+  content: ""; }
+
+.cil-chevron-double-right:before {
+  content: ""; }
+
+.cil-chevron-double-up:before {
+  content: ""; }
+
+.cil-chevron-left:before {
+  content: ""; }
+
+.cil-chevron-right:before {
+  content: ""; }
+
+.cil-chevron-top:before {
+  content: ""; }
+
+.cil-child:before {
+  content: ""; }
+
+.cil-child-friendly:before {
+  content: ""; }
+
+.cil-circle:before {
+  content: ""; }
+
+.cil-clear-all:before {
+  content: ""; }
+
+.cil-clipboard:before {
+  content: ""; }
+
+.cil-clock:before {
+  content: ""; }
+
+.cil-clone:before {
+  content: ""; }
+
+.cil-closed-captioning:before {
+  content: ""; }
+
+.cil-cloud:before {
+  content: ""; }
+
+.cil-cloud-download:before {
+  content: ""; }
+
+.cil-cloud-upload:before {
+  content: ""; }
+
+.cil-cloudy:before {
+  content: ""; }
+
+.cil-code:before {
+  content: ""; }
+
+.cil-coffee:before {
+  content: ""; }
+
+.cil-cog:before {
+  content: ""; }
+
+.cil-color-border:before {
+  content: ""; }
+
+.cil-color-fill:before {
+  content: ""; }
+
+.cil-color-palette:before {
+  content: ""; }
+
+.cil-columns:before {
+  content: ""; }
+
+.cil-command:before {
+  content: ""; }
+
+.cil-comment-bubble:before {
+  content: ""; }
+
+.cil-comment-square:before {
+  content: ""; }
+
+.cil-compass:before {
+  content: ""; }
+
+.cil-compress:before {
+  content: ""; }
+
+.cil-contact:before {
+  content: ""; }
+
+.cil-contrast:before {
+  content: ""; }
+
+.cil-control:before {
+  content: ""; }
+
+.cil-copy:before {
+  content: ""; }
+
+.cil-couch:before {
+  content: ""; }
+
+.cil-credit-card:before {
+  content: ""; }
+
+.cil-crop:before {
+  content: ""; }
+
+.cil-crop-rotate:before {
+  content: ""; }
+
+.cil-cursor:before {
+  content: ""; }
+
+.cil-cursor-move:before {
+  content: ""; }
+
+.cil-cut:before {
+  content: ""; }
+
+.cil-data-transfer-down:before {
+  content: ""; }
+
+.cil-data-transfer-up:before {
+  content: ""; }
+
+.cil-deaf:before {
+  content: ""; }
+
+.cil-delete:before {
+  content: ""; }
+
+.cil-description:before {
+  content: ""; }
+
+.cil-devices:before {
+  content: ""; }
+
+.cil-dialpad:before {
+  content: ""; }
+
+.cil-diamond:before {
+  content: ""; }
+
+.cil-dinner:before {
+  content: ""; }
+
+.cil-disabled:before {
+  content: ""; }
+
+.cil-dog:before {
+  content: ""; }
+
+.cil-dollar:before {
+  content: ""; }
+
+.cil-door:before {
+  content: ""; }
+
+.cil-double-quote-sans-left:before {
+  content: ""; }
+
+.cil-double-quote-sans-right:before {
+  content: ""; }
+
+.cil-drink:before {
+  content: ""; }
+
+.cil-drink-alcohol:before {
+  content: ""; }
+
+.cil-drop:before {
+  content: ""; }
+
+.cil-eco:before {
+  content: ""; }
+
+.cil-education:before {
+  content: ""; }
+
+.cil-elevator:before {
+  content: ""; }
+
+.cil-envelope-closed:before {
+  content: ""; }
+
+.cil-envelope-letter:before {
+  content: ""; }
+
+.cil-envelope-open:before {
+  content: ""; }
+
+.cil-equalizer:before {
+  content: ""; }
+
+.cil-ethernet:before {
+  content: ""; }
+
+.cil-euro:before {
+  content: ""; }
+
+.cil-excerpt:before {
+  content: ""; }
+
+.cil-exit-to-app:before {
+  content: ""; }
+
+.cil-expand-down:before {
+  content: ""; }
+
+.cil-expand-left:before {
+  content: ""; }
+
+.cil-expand-right:before {
+  content: ""; }
+
+.cil-expand-up:before {
+  content: ""; }
+
+.cil-exposure:before {
+  content: ""; }
+
+.cil-external-link:before {
+  content: ""; }
+
+.cil-eyedropper:before {
+  content: ""; }
+
+.cil-face:before {
+  content: ""; }
+
+.cil-face-dead:before {
+  content: ""; }
+
+.cil-factory:before {
+  content: ""; }
+
+.cil-factory-slash:before {
+  content: ""; }
+
+.cil-fastfood:before {
+  content: ""; }
+
+.cil-fax:before {
+  content: ""; }
+
+.cil-featured-playlist:before {
+  content: ""; }
+
+.cil-file:before {
+  content: ""; }
+
+.cil-filter:before {
+  content: ""; }
+
+.cil-filter-frames:before {
+  content: ""; }
+
+.cil-filter-photo:before {
+  content: ""; }
+
+.cil-filter-square:before {
+  content: ""; }
+
+.cil-filter-x:before {
+  content: ""; }
+
+.cil-find-in-page:before {
+  content: ""; }
+
+.cil-fingerprint:before {
+  content: ""; }
+
+.cil-fire:before {
+  content: ""; }
+
+.cil-flag-alt:before {
+  content: ""; }
+
+.cil-flight-takeoff:before {
+  content: ""; }
+
+.cil-flip:before {
+  content: ""; }
+
+.cil-flip-to-back:before {
+  content: ""; }
+
+.cil-flip-to-front:before {
+  content: ""; }
+
+.cil-flower:before {
+  content: ""; }
+
+.cil-folder:before {
+  content: ""; }
+
+.cil-folder-open:before {
+  content: ""; }
+
+.cil-font:before {
+  content: ""; }
+
+.cil-football:before {
+  content: ""; }
+
+.cil-fork:before {
+  content: ""; }
+
+.cil-fridge:before {
+  content: ""; }
+
+.cil-frown:before {
+  content: ""; }
+
+.cil-fullscreen:before {
+  content: ""; }
+
+.cil-fullscreen-exit:before {
+  content: ""; }
+
+.cil-functions:before {
+  content: ""; }
+
+.cil-functions-alt:before {
+  content: ""; }
+
+.cil-gamepad:before {
+  content: ""; }
+
+.cil-garage:before {
+  content: ""; }
+
+.cil-gem:before {
+  content: ""; }
+
+.cil-gif:before {
+  content: ""; }
+
+.cil-gift:before {
+  content: ""; }
+
+.cil-globe-alt:before {
+  content: ""; }
+
+.cil-golf:before {
+  content: ""; }
+
+.cil-golf-alt:before {
+  content: ""; }
+
+.cil-gradient:before {
+  content: ""; }
+
+.cil-grain:before {
+  content: ""; }
+
+.cil-graph:before {
+  content: ""; }
+
+.cil-grid:before {
+  content: ""; }
+
+.cil-grid-slash:before {
+  content: ""; }
+
+.cil-group:before {
+  content: ""; }
+
+.cil-hamburger-menu:before {
+  content: ""; }
+
+.cil-hand-point-down:before {
+  content: ""; }
+
+.cil-hand-point-left:before {
+  content: ""; }
+
+.cil-hand-point-right:before {
+  content: ""; }
+
+.cil-hand-point-up:before {
+  content: ""; }
+
+.cil-happy:before {
+  content: ""; }
+
+.cil-hd:before {
+  content: ""; }
+
+.cil-hdr:before {
+  content: ""; }
+
+.cil-header:before {
+  content: ""; }
+
+.cil-headphones:before {
+  content: ""; }
+
+.cil-healing:before {
+  content: ""; }
+
+.cil-heart:before {
+  content: ""; }
+
+.cil-highlighter:before {
+  content: ""; }
+
+.cil-highligt:before {
+  content: ""; }
+
+.cil-history:before {
+  content: ""; }
+
+.cil-home:before {
+  content: ""; }
+
+.cil-hospital:before {
+  content: ""; }
+
+.cil-hot-tub:before {
+  content: ""; }
+
+.cil-house:before {
+  content: ""; }
+
+.cil-https:before {
+  content: ""; }
+
+.cil-image:before {
+  content: ""; }
+
+.cil-image-broken:before {
+  content: ""; }
+
+.cil-image-plus:before {
+  content: ""; }
+
+.cil-inbox:before {
+  content: ""; }
+
+.cil-indent-decrease:before {
+  content: ""; }
+
+.cil-indent-increase:before {
+  content: ""; }
+
+.cil-industry:before {
+  content: ""; }
+
+.cil-industry-slash:before {
+  content: ""; }
+
+.cil-infinity:before {
+  content: ""; }
+
+.cil-info:before {
+  content: ""; }
+
+.cil-input:before {
+  content: ""; }
+
+.cil-input-hdmi:before {
+  content: ""; }
+
+.cil-input-power:before {
+  content: ""; }
+
+.cil-institution:before {
+  content: ""; }
+
+.cil-italic:before {
+  content: ""; }
+
+.cil-justify-center:before {
+  content: ""; }
+
+.cil-justify-left:before {
+  content: ""; }
+
+.cil-justify-right:before {
+  content: ""; }
+
+.cil-keyboard:before {
+  content: ""; }
+
+.cil-lan:before {
+  content: ""; }
+
+.cil-language:before {
+  content: ""; }
+
+.cil-laptop:before {
+  content: ""; }
+
+.cil-layers:before {
+  content: ""; }
+
+.cil-leaf:before {
+  content: ""; }
+
+.cil-lemon:before {
+  content: ""; }
+
+.cil-level-down:before {
+  content: ""; }
+
+.cil-level-up:before {
+  content: ""; }
+
+.cil-library:before {
+  content: ""; }
+
+.cil-library-add:before {
+  content: ""; }
+
+.cil-library-building:before {
+  content: ""; }
+
+.cil-life-ring:before {
+  content: ""; }
+
+.cil-lightbulb:before {
+  content: ""; }
+
+.cil-line-spacing:before {
+  content: ""; }
+
+.cil-line-style:before {
+  content: ""; }
+
+.cil-line-weight:before {
+  content: ""; }
+
+.cil-link:before {
+  content: ""; }
+
+.cil-link-alt:before {
+  content: ""; }
+
+.cil-link-broken:before {
+  content: ""; }
+
+.cil-list:before {
+  content: ""; }
+
+.cil-list-filter:before {
+  content: ""; }
+
+.cil-list-high-priority:before {
+  content: ""; }
+
+.cil-list-low-priority:before {
+  content: ""; }
+
+.cil-list-numbered:before {
+  content: ""; }
+
+.cil-list-numbered-rtl:before {
+  content: ""; }
+
+.cil-list-rich:before {
+  content: ""; }
+
+.cil-location-pin:before {
+  content: ""; }
+
+.cil-lock-locked:before {
+  content: ""; }
+
+.cil-lock-unlocked:before {
+  content: ""; }
+
+.cil-locomotive:before {
+  content: ""; }
+
+.cil-loop:before {
+  content: ""; }
+
+.cil-loop-1:before {
+  content: ""; }
+
+.cil-loop-circular:before {
+  content: ""; }
+
+.cil-low-vision:before {
+  content: ""; }
+
+.cil-magnifying-glass:before {
+  content: ""; }
+
+.cil-map:before {
+  content: ""; }
+
+.cil-media-eject:before {
+  content: ""; }
+
+.cil-media-pause:before {
+  content: ""; }
+
+.cil-media-play:before {
+  content: ""; }
+
+.cil-media-record:before {
+  content: ""; }
+
+.cil-media-skip-backward:before {
+  content: ""; }
+
+.cil-media-skip-forward:before {
+  content: ""; }
+
+.cil-media-step-backward:before {
+  content: ""; }
+
+.cil-media-step-forward:before {
+  content: ""; }
+
+.cil-media-stop:before {
+  content: ""; }
+
+.cil-medical-cross:before {
+  content: ""; }
+
+.cil-meh:before {
+  content: ""; }
+
+.cil-memory:before {
+  content: ""; }
+
+.cil-menu:before {
+  content: ""; }
+
+.cil-mic:before {
+  content: ""; }
+
+.cil-microphone:before {
+  content: ""; }
+
+.cil-minus:before {
+  content: ""; }
+
+.cil-mobile:before {
+  content: ""; }
+
+.cil-mobile-landscape:before {
+  content: ""; }
+
+.cil-money:before {
+  content: ""; }
+
+.cil-monitor:before {
+  content: ""; }
+
+.cil-mood-bad:before {
+  content: ""; }
+
+.cil-mood-good:before {
+  content: ""; }
+
+.cil-mood-very-bad:before {
+  content: ""; }
+
+.cil-mood-very-good:before {
+  content: ""; }
+
+.cil-moon:before {
+  content: ""; }
+
+.cil-mouse:before {
+  content: ""; }
+
+.cil-mouth-slash:before {
+  content: ""; }
+
+.cil-move:before {
+  content: ""; }
+
+.cil-movie:before {
+  content: ""; }
+
+.cil-mug:before {
+  content: ""; }
+
+.cil-mug-tea:before {
+  content: ""; }
+
+.cil-music-note:before {
+  content: ""; }
+
+.cil-newspaper:before {
+  content: ""; }
+
+.cil-note-add:before {
+  content: ""; }
+
+.cil-notes:before {
+  content: ""; }
+
+.cil-object-group:before {
+  content: ""; }
+
+.cil-object-ungroup:before {
+  content: ""; }
+
+.cil-opacity:before {
+  content: ""; }
+
+.cil-opentype:before {
+  content: ""; }
+
+.cil-options:before {
+  content: ""; }
+
+.cil-paint:before {
+  content: ""; }
+
+.cil-paint-bucket:before {
+  content: ""; }
+
+.cil-paper-plane:before {
+  content: ""; }
+
+.cil-paperclip:before {
+  content: ""; }
+
+.cil-paragraph:before {
+  content: ""; }
+
+.cil-paw:before {
+  content: ""; }
+
+.cil-pen:before {
+  content: ""; }
+
+.cil-pen-alt:before {
+  content: ""; }
+
+.cil-pen-nib:before {
+  content: ""; }
+
+.cil-pencil:before {
+  content: ""; }
+
+.cil-people:before {
+  content: ""; }
+
+.cil-phone:before {
+  content: ""; }
+
+.cil-pin:before {
+  content: ""; }
+
+.cil-pizza:before {
+  content: ""; }
+
+.cil-plant:before {
+  content: ""; }
+
+.cil-playlist-add:before {
+  content: ""; }
+
+.cil-plus:before {
+  content: ""; }
+
+.cil-pool:before {
+  content: ""; }
+
+.cil-power-standby:before {
+  content: ""; }
+
+.cil-pregnant:before {
+  content: ""; }
+
+.cil-print:before {
+  content: ""; }
+
+.cil-pushchair:before {
+  content: ""; }
+
+.cil-puzzle:before {
+  content: ""; }
+
+.cil-qr-code:before {
+  content: ""; }
+
+.cil-rain:before {
+  content: ""; }
+
+.cil-rectangle:before {
+  content: ""; }
+
+.cil-recycle:before {
+  content: ""; }
+
+.cil-reload:before {
+  content: ""; }
+
+.cil-report-slash:before {
+  content: ""; }
+
+.cil-resize-both:before {
+  content: ""; }
+
+.cil-resize-height:before {
+  content: ""; }
+
+.cil-resize-width:before {
+  content: ""; }
+
+.cil-restaurant:before {
+  content: ""; }
+
+.cil-room:before {
+  content: ""; }
+
+.cil-router:before {
+  content: ""; }
+
+.cil-rowing:before {
+  content: ""; }
+
+.cil-rss:before {
+  content: ""; }
+
+.cil-ruble:before {
+  content: ""; }
+
+.cil-running:before {
+  content: ""; }
+
+.cil-sad:before {
+  content: ""; }
+
+.cil-satelite:before {
+  content: ""; }
+
+.cil-save:before {
+  content: ""; }
+
+.cil-school:before {
+  content: ""; }
+
+.cil-screen-desktop:before {
+  content: ""; }
+
+.cil-screen-smartphone:before {
+  content: ""; }
+
+.cil-scrubber:before {
+  content: ""; }
+
+.cil-search:before {
+  content: ""; }
+
+.cil-send:before {
+  content: ""; }
+
+.cil-settings:before {
+  content: ""; }
+
+.cil-share:before {
+  content: ""; }
+
+.cil-share-all:before {
+  content: ""; }
+
+.cil-share-alt:before {
+  content: ""; }
+
+.cil-share-boxed:before {
+  content: ""; }
+
+.cil-shield-alt:before {
+  content: ""; }
+
+.cil-short-text:before {
+  content: ""; }
+
+.cil-shower:before {
+  content: ""; }
+
+.cil-sign-language:before {
+  content: ""; }
+
+.cil-signal-cellular-0:before {
+  content: ""; }
+
+.cil-signal-cellular-3:before {
+  content: ""; }
+
+.cil-signal-cellular-4:before {
+  content: ""; }
+
+.cil-sim:before {
+  content: ""; }
+
+.cil-sitemap:before {
+  content: ""; }
+
+.cil-smile:before {
+  content: ""; }
+
+.cil-smile-plus:before {
+  content: ""; }
+
+.cil-smoke:before {
+  content: ""; }
+
+.cil-smoke-free:before {
+  content: ""; }
+
+.cil-smoke-slash:before {
+  content: ""; }
+
+.cil-smoking-room:before {
+  content: ""; }
+
+.cil-snowflake:before {
+  content: ""; }
+
+.cil-soccer:before {
+  content: ""; }
+
+.cil-sofa:before {
+  content: ""; }
+
+.cil-sort-alpha-down:before {
+  content: ""; }
+
+.cil-sort-alpha-up:before {
+  content: ""; }
+
+.cil-sort-ascending:before {
+  content: ""; }
+
+.cil-sort-descending:before {
+  content: ""; }
+
+.cil-sort-numeric-down:before {
+  content: ""; }
+
+.cil-sort-numeric-up:before {
+  content: ""; }
+
+.cil-spa:before {
+  content: ""; }
+
+.cil-space-bar:before {
+  content: ""; }
+
+.cil-speak:before {
+  content: ""; }
+
+.cil-speaker:before {
+  content: ""; }
+
+.cil-speech:before {
+  content: ""; }
+
+.cil-speedometer:before {
+  content: ""; }
+
+.cil-spreadsheet:before {
+  content: ""; }
+
+.cil-square:before {
+  content: ""; }
+
+.cil-star:before {
+  content: ""; }
+
+.cil-star-half:before {
+  content: ""; }
+
+.cil-storage:before {
+  content: ""; }
+
+.cil-stream:before {
+  content: ""; }
+
+.cil-strikethrough:before {
+  content: ""; }
+
+.cil-sun:before {
+  content: ""; }
+
+.cil-swap-horizontal:before {
+  content: ""; }
+
+.cil-swap-vertical:before {
+  content: ""; }
+
+.cil-swimming:before {
+  content: ""; }
+
+.cil-sync:before {
+  content: ""; }
+
+.cil-tablet:before {
+  content: ""; }
+
+.cil-tag:before {
+  content: ""; }
+
+.cil-tags:before {
+  content: ""; }
+
+.cil-task:before {
+  content: ""; }
+
+.cil-taxi:before {
+  content: ""; }
+
+.cil-tennis:before {
+  content: ""; }
+
+.cil-tennis-ball:before {
+  content: ""; }
+
+.cil-terminal:before {
+  content: ""; }
+
+.cil-terrain:before {
+  content: ""; }
+
+.cil-text:before {
+  content: ""; }
+
+.cil-text-shapes:before {
+  content: ""; }
+
+.cil-text-size:before {
+  content: ""; }
+
+.cil-text-square:before {
+  content: ""; }
+
+.cil-text-strike:before {
+  content: ""; }
+
+.cil-thumb-down:before {
+  content: ""; }
+
+.cil-thumb-up:before {
+  content: ""; }
+
+.cil-toggle-off:before {
+  content: ""; }
+
+.cil-toggle-on:before {
+  content: ""; }
+
+.cil-toilet:before {
+  content: ""; }
+
+.cil-touch-app:before {
+  content: ""; }
+
+.cil-transfer:before {
+  content: ""; }
+
+.cil-translate:before {
+  content: ""; }
+
+.cil-trash:before {
+  content: ""; }
+
+.cil-triangle:before {
+  content: ""; }
+
+.cil-truck:before {
+  content: ""; }
+
+.cil-tv:before {
+  content: ""; }
+
+.cil-underline:before {
+  content: ""; }
+
+.cil-usb:before {
+  content: ""; }
+
+.cil-user:before {
+  content: ""; }
+
+.cil-user-female:before {
+  content: ""; }
+
+.cil-user-follow:before {
+  content: ""; }
+
+.cil-user-plus:before {
+  content: ""; }
+
+.cil-user-unfollow:before {
+  content: ""; }
+
+.cil-user-x:before {
+  content: ""; }
+
+.cil-vector:before {
+  content: ""; }
+
+.cil-vertical-align-bottom:before {
+  content: ""; }
+
+.cil-vertical-align-center:before {
+  content: ""; }
+
+.cil-vertical-align-top:before {
+  content: ""; }
+
+.cil-video:before {
+  content: ""; }
+
+.cil-videogame:before {
+  content: ""; }
+
+.cil-view-column:before {
+  content: ""; }
+
+.cil-view-module:before {
+  content: ""; }
+
+.cil-view-quilt:before {
+  content: ""; }
+
+.cil-view-stream:before {
+  content: ""; }
+
+.cil-voice:before {
+  content: ""; }
+
+.cil-voice-over-record:before {
+  content: ""; }
+
+.cil-volume-high:before {
+  content: ""; }
+
+.cil-volume-low:before {
+  content: ""; }
+
+.cil-volume-off:before {
+  content: ""; }
+
+.cil-walk:before {
+  content: ""; }
+
+.cil-wallet:before {
+  content: ""; }
+
+.cil-wallpaper:before {
+  content: ""; }
+
+.cil-warning:before {
+  content: ""; }
+
+.cil-watch:before {
+  content: ""; }
+
+.cil-wc:before {
+  content: ""; }
+
+.cil-weightlifitng:before {
+  content: ""; }
+
+.cil-wheelchair:before {
+  content: ""; }
+
+.cil-wifi-signal-0:before {
+  content: ""; }
+
+.cil-wifi-signal-1:before {
+  content: ""; }
+
+.cil-wifi-signal-2:before {
+  content: ""; }
+
+.cil-wifi-signal-3:before {
+  content: ""; }
+
+.cil-wifi-signal-4:before {
+  content: ""; }
+
+.cil-wifi-signal-off:before {
+  content: ""; }
+
+.cil-window:before {
+  content: ""; }
+
+.cil-window-maximize:before {
+  content: ""; }
+
+.cil-window-minimize:before {
+  content: ""; }
+
+.cil-window-restore:before {
+  content: ""; }
+
+.cil-wrap-text:before {
+  content: ""; }
+
+.cil-x:before {
+  content: ""; }
+
+.cil-x-circle:before {
+  content: ""; }
+
+.cil-yen:before {
+  content: ""; }
+
+.cil-zoom:before {
+  content: ""; }
+
+.cil-zoom-in:before {
+  content: ""; }
+
+.cil-zoom-out:before {
+  content: ""; }
+
+/*# sourceMappingURL=free-icons.css.map */

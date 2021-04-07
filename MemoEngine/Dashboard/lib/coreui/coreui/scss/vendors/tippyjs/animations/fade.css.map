@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGE,sDAA8C;EAC5C,OAAO,EAAE,CAAC",
+"sources": ["fade.scss"],
+"names": [],
+"file": "fade.css"
+}

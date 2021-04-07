@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGI,4CAAqB;EACnB,KAAK,EAAE,IAAI",
+"sources": ["../_dropdown-menu-right.scss"],
+"names": [],
+"file": "dropdown-menu-right.css"
+}
