@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoEngine", "MemoEngine\Me
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MemoEngine.Database", "MemoEngine.Database\MemoEngine.Database.sqlproj", "{BEB07F0C-45E9-46AE-B067-C8914C2BAFEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoEngine.Answers", "MemoEngine.Answers\MemoEngine.Answers.csproj", "{26F79087-B1AA-4701-AAE4-E1B841C275CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemoEngine.Answers", "MemoEngine.Answers\MemoEngine.Answers.csproj", "{26F79087-B1AA-4701-AAE4-E1B841C275CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dul", "Dul\Dul.csproj", "{51FE2A3A-EBB4-4B7A-8316-D4F3FE6737FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{26F79087-B1AA-4701-AAE4-E1B841C275CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26F79087-B1AA-4701-AAE4-E1B841C275CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26F79087-B1AA-4701-AAE4-E1B841C275CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51FE2A3A-EBB4-4B7A-8316-D4F3FE6737FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51FE2A3A-EBB4-4B7A-8316-D4F3FE6737FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51FE2A3A-EBB4-4B7A-8316-D4F3FE6737FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51FE2A3A-EBB4-4B7A-8316-D4F3FE6737FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
