@@ -1,4 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Dashboard/DashboardCore.Master" AutoEventWireup="true" CodeBehind="AnswerReplay.aspx.cs" Inherits="MemoEngine.Answers.AnswerReplay" %>
+
+<%@ Register Src="~/Answers/Controls/BoardEditorFormControl.ascx" TagPrefix="uc1" TagName="BoardEditorFormControl" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="HeaderContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="NaviContent" runat="server">
@@ -11,6 +14,7 @@
           </ol>
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
+    <uc1:BoardEditorFormControl runat="server" ID="ctlBoardEditorFormControl" />
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="FooterContent" runat="server">
 </asp:Content>

@@ -45,7 +45,37 @@
                                                 HeaderStyle-HorizontalAlign="Center"
                                                 Width="100%"
                                                 CssClass="table table-bordered table-hover table-striped table-condensed articleList">
-
+                                    <EmptyDataTemplate>
+                                                    <div style="width: 100%; height: 130px; border: 1px solid red; text-align: center; vertical-align: middle;">
+                                                        <% if (SearchMode)
+                                                            {
+                                                        %>
+                                                        <br />
+                                                        <br />
+                                                        <br />
+                                                        <span style="color: red;">"<%= SearchQuery %>"로 검색한 데이터가 없습니다.
+                                                        </span>
+                                                        <br />
+                                                        <br />
+                                                        <br />
+                                                        <%       
+                                                            }
+                                                            else
+                                                            {
+                                                        %>
+                                                        <br />
+                                                        <br />
+                                                        <br />
+                                                        <span style="color: red;">현재 게시판에 입력된 데이터가 없습니다.
+                                                        </span>
+                                                        <br />
+                                                        <br />
+                                                        <br />
+                                                        <%        
+                                                            }
+                                                        %>
+                                                    </div>
+                                    </EmptyDataTemplate>
                                     <Columns>
                                                     <asp:TemplateField HeaderText="번호" HeaderStyle-Width="50px" ItemStyle-HorizontalAlign="Center">
                                                         <ItemTemplate>
@@ -80,8 +110,8 @@
                                                     </asp:TemplateField>
                                                     <asp:BoundField DataField="ReadCount" HeaderText="조회수" ItemStyle-HorizontalAlign="Right" HeaderStyle-Width="60px"></asp:BoundField>
                                                 </Columns>
-                                </asp:GridView>
-                                <%--게시판 그리드--%>
+                                            </asp:GridView>
+                                            <%--게시판 그리드--%>
                             </td>
                         </tr>
                         <tr>

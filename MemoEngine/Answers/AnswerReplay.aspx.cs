@@ -11,7 +11,8 @@ namespace MemoEngine.Answers
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            ctlBoardEditorFormControl.FormType = BoardWriteFormType.Reply;
+            ctlBoardEditorFormControl.Message = "글 답변 - 다음 필드들을 채워주세요";
         }
     }
 }
