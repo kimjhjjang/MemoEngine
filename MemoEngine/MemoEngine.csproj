@@ -334,6 +334,7 @@
     <Content Include="App_Data\MemoEngine2_log.ldf">
       <DependentUpon>MemoEngine2.mdf</DependentUpon>
     </Content>
+    <Content Include="BoardFile\Answers\Answers.txt" />
     <Content Include="BusinessType.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
