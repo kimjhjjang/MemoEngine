@@ -2,6 +2,7 @@
 using System.Configuration;
 using System.IO;
 
+
 namespace MemoEngine.Answers.Controls
 {
     public partial class BoardEditorFormControl : System.Web.UI.UserControl
@@ -47,6 +48,7 @@ namespace MemoEngine.Answers.Controls
         {
             connectionString = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
             _repository = new AnswerRepository(connectionString);
+            Console.WriteLine(_repository);
         }
 
         protected void Page_Load(object sender, EventArgs e)
@@ -131,7 +133,61 @@ namespace MemoEngine.Answers.Controls
 
         protected void btnWrite_Click(object sender, EventArgs e)
         {
-            
+            // 보안 문자를 정확히 입력했거나, 로그인된 상태라면
+            if (IsImageTextCorrect())
+            {
+                UploadProcess(); // 파일 업로드 관련 코드 분리
+                
+                // 폼의 값들을 모델 클래스에 담기 
+                var model = new ArticleBase();
+                model.Id = Convert.ToInt32(_Id);
+                model.Category = ddlCategoryList.SelectedValue; // 카테고리
+                model.Name = HtmlUtility.Encode(txtName.Text);
+                model.Email = HtmlUtility.Encode(txtEmail.Text);
+                model.Homepage = txtHomepage.Text;
+                model.Title = HtmlUtility.Encode(txtTitle.Text);
+                model.Content = txtContent.Text;
+                model.FileName = _FileName;
+                model.FileSize = _FileSize;
+                model.Password = txtPassword.Text;
+                model.PostIp = Request.UserHostAddress;
+                model.Encoding = rdoEncoding.SelectedValue;
+
+
+
+                // 데이터베이스에 저장
+                switch (FormType)
+                {
+                    case BoardWriteFormType.Modify:
+                        model.ModifyIp = Request.UserHostAddress;
+                        model.FileName = ViewState["FileName"].ToString();
+                        model.FileSize = Convert.ToInt32(ViewState["FileSize"]);
+                        int r = _repository.UpdateModel(model);
+                        if (r > 0) // 업데이트 완료
+                        {
+                            Response.Redirect($"AnswerDetails.aspx?Id={_Id}");
+                        }
+                        else
+                        {
+                            lblError.Text = "업데이트가 되지 않았습니다. 암호를 확인하세요.";
+                        }
+                        break;
+                    case BoardWriteFormType.Reply:
+                        model.ParentNum = Convert.ToInt32(_Id);
+                        _repository.ReplyModel(model);
+                        Response.Redirect("AnswerIndex.aspx");
+                        break;
+                    default:
+                        Console.WriteLine(_repository + "/"+model);
+                        _repository.Add(model);
+                        Response.Redirect("AnswerIndex.aspx");
+                        break;
+                }
+            }
+            else
+            {
+                lblError.Text = "보안 코드가 틀립니다. 다시 입력하세요.";
+            }
         }
 
         /// <summary>
@@ -182,10 +238,12 @@ namespace MemoEngine.Answers.Controls
         }
         #endregion
 
+        #region Azure Blob Storage 에 저장 할수 있는 매소드
         private void UploadFileToAzureBlobStorage()
         {
             throw new NotImplementedException();
-        }
+        } 
+        #endregion
 
         /// <summary>
         /// 로그인하였거나, 이미지 텍스트를 정상적으로 입력하면 true 값 반환

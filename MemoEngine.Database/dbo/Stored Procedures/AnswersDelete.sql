@@ -15,12 +15,12 @@ AS
 	Declare @Ref Int
 	Declare @RefOrder Int
 	Declare @AnswerNum Int
-	Declare @parentNum Int
+	Declare @ParentNum Int
 
 	-- 삭제하려는 글의 정보 읽어오기
 	select
 	@AnswerNum = AnswerNum, @RefOrder = RefOrder,
-	@Ref = Ref, @parentNum = parentNum from Answers 
+	@Ref = Ref, @ParentNum = ParentNum from Answers 
 	where Id = @Id
 
 	If @AnswerNum = 0
@@ -29,10 +29,10 @@ AS
 	If @RefOrder> 0
 	Begin
 	UPDATE Answers SET RefOrder = RefOrder -1 WHERE Ref = @Ref And RefOrder > @RefOrder
-	UPDATE Answers SET AnswerNum = AnswerNum -1 WHERE Id = @parentNum
+	UPDATE Answers SET AnswerNum = AnswerNum -1 WHERE Id = @ParentNum
 	END
 	Delete Answers Where Id = Id
-	Delete Answers WHERE Id = @parentNum AND ModifyIp = N'((DELETED))' AND AnswerNum = 0
+	Delete Answers WHERE Id = @ParentNum AND ModifyIp = N'((DELETED))' AND AnswerNum = 0
 	End
 	Else
 	Begin

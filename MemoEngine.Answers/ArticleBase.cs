@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MemoEngine.Answers
 {
-    public class Answer
+    public class ArticleBase
     {
         /// <summary>
         /// id 일련번호
@@ -104,7 +104,7 @@ namespace MemoEngine.Answers
         [Display(Name = "댓글수")]
         public int CommentCount { get; set; }
         #endregion
-        
+
         #region [2] 자료실 게시판 관련 주요 컬럼
         /// <summary>
         /// 파일명
@@ -124,7 +124,7 @@ namespace MemoEngine.Answers
         [Display(Name = "다운수")]
         public int DownCount { get; set; }
         #endregion
-        
+
         #region [3] 답변형 게시판 관련 주요 컬럼: 참조 계층 관련(Ref, ...)
         /// <summary>
         /// 참조번호

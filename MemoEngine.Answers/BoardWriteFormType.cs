@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace MemoEngine.Answers
+﻿namespace MemoEngine.Answers
 {
-     public enum BoardWriteFormType
+    public enum BoardWriteFormType
     {
         Write,
         Modify,

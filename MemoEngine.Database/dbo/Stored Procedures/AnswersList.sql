@@ -17,5 +17,5 @@ AS
 	[Step]
 	from Answers
 	Order By Ref Desc, RefOrder Asc
-	Offset ((@pageNumber - 1 ) * @PageSize) Rows Fetch Next @pageSize Rows Only;
+	Offset ((@PageNumber - 1 ) * @PageSize) Rows Fetch Next @PageSize Rows Only;
 Go
