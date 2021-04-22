@@ -51,7 +51,7 @@
                                                 HeaderStyle-HorizontalAlign="Center"
                                                 Width="100%"
                                                 CssClass="table table-bordered table-hover table-striped table-condensed articleList">
-                                                <HeaderStyle CssClass="thead-light" />
+                                                <HeaderStyle CssClass="thead-dark" />
                                                 <EmptyDataTemplate>
                                                     <div style="width: 100%; height: 130px; border: 1px solid red; text-align: center; vertical-align: middle;">
                                                         <% if (SearchMode)
