@@ -1,5 +1,5 @@
 ﻿-- 댓글 테이블 생성
-CREATE TABLE [dbo].[Answers_Comments]
+CREATE TABLE [dbo].[AnswersComments]
 (
  Id Int Identity(1,1) Not null Primary key,
  ArticleId Int Not null,

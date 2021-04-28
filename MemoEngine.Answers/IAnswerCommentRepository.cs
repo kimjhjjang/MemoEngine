@@ -10,7 +10,7 @@ namespace MemoEngine.Answers
 
         int DeleteComment(int articleId, int id, String password);
 
-        List<AnswerComment> GetComment(int articleId);
+        List<AnswerComment> GetComments(int articleId);
 
         int GetCountBy(int articleId, int id, String password);
 

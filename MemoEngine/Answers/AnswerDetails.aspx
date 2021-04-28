@@ -1,4 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Dashboard/DashboardCore.Master" AutoEventWireup="true" CodeBehind="AnswerDetails.aspx.cs" Inherits="MemoEngine.Answers.AnswerDetails" %>
+
+<%@ Register Src="~/Answers/Controls/BoardCommentControl.ascx" TagPrefix="uc1" TagName="BoardCommentControl" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="HeaderContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="NaviContent" runat="server">
@@ -97,7 +100,7 @@
                                     <tr>
                                         <td colspan="4">
                                             <!-- 댓글 관리 폼 시작 -->
-                                            <%--<uc1:BoardCommentControl runat="server" id="BoardCommentControl" />--%>
+                                            <uc1:BoardCommentControl runat="server" ID="BoardCommentControl" />
                                             <!-- 댓글 관리 폼 종료 -->
                                         </td>
                                     </tr>

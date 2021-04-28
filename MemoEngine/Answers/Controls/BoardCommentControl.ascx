@@ -1,5 +1,4 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="BoardCommentControl.ascx.cs" Inherits="MemoEngine.Answers.Controls.BoardCommentControl" %>
-
 <%--<h3>댓글 리스트</h3>--%>
 <asp:Repeater ID="ctlCommentList" runat="server">
     <HeaderTemplate>
