@@ -54,7 +54,12 @@ namespace MemoEngine.Answers
 
         public int DeleteComment(int articleId, int id, string password)
         {
-            throw new NotImplementedException();
+            return db.Execute(@"
+                Delete AnswersComments Where ArticleId = @ArticleId And Id = @Id And Password = @Password;                 
+                Update Answers Set CommentCount = CommentCount - 1 Where Id = @ArticleId;
+                "
+                , new { ArticleId = articleId, Id = id, Password = password }
+                , commandType: CommandType.Text);
         }
 
         public bool Edit(AnswerComment model)
@@ -70,10 +75,17 @@ namespace MemoEngine.Answers
                 commandType : CommandType.Text
                 ).ToList();
         }
-
+        /// <summary>
+        /// 특정 게시물(ArticleId)의 특정 댓글(Id)에 해당하는 댓글 카운트
+        /// </summary>
+        /// <param name="articleId"></param>
+        /// <param name="id"></param>
+        /// <param name="password"></param>
+        /// <returns></returns>
         public int GetCountBy(int articleId, int id, string password)
         {
-            throw new NotImplementedException();
+            string sql = "Select Count(*) From AnswersComments Where ArticleId = @ArticleId And Id = @Id And Password = @Password";
+            return db.Query<int>(sql, new { ArticleId = articleId, Id = id, Password = password }, commandType: CommandType.Text).SingleOrDefault();
         }
 
         public List<AnswerComment> GetRecentComment()

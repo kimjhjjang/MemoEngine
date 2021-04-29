@@ -17,7 +17,7 @@
     <div class="container-fluid">
         <div class="animated fadeIn">
 
-            <%--게시판 리스트 작성 시작--%>
+            <%--게시판 상세보기 작성 시작--%>
             <div class="row">
                 <div class="col-sm-12 col-md-12">
                     <div class="card">
@@ -122,7 +122,7 @@
                 </div>
                 <!-- /.col-->
             </div>
-            <%--게시판 리스트 작성 종료--%>
+            <%--게시판 상세보기 작성 종료--%>
         </div>
     </div>
 </asp:Content>
