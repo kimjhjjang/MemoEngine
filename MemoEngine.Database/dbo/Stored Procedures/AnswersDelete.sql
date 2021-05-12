@@ -5,7 +5,7 @@ AS
 -- 등록한암호가 맞는지 확인
 	Declare @cnt Int
 	Select @cnt = count(*) from Answers
-	where Id = Id And Password = @Password
+	where Id = @Id And Password = @Password
 
 	If @cnt = 0
 	Begin
@@ -31,7 +31,7 @@ AS
 	UPDATE Answers SET RefOrder = RefOrder -1 WHERE Ref = @Ref And RefOrder > @RefOrder
 	UPDATE Answers SET AnswerNum = AnswerNum -1 WHERE Id = @ParentNum
 	END
-	Delete Answers Where Id = Id
+	Delete Answers Where Id = @Id
 	Delete Answers WHERE Id = @ParentNum AND ModifyIp = N'((DELETED))' AND AnswerNum = 0
 	End
 	Else

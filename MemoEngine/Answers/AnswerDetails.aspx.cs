@@ -30,9 +30,9 @@ namespace MemoEngine.Answers
 
             // 삭제, 수정, 답변 링크 만들기
 
-            lnkDelete.NavigateUrl = "AnswerDelete.apsx?Id=" + _Id.ToString();
-            lnkModify.NavigateUrl = "AnswerModify.aspx?Id=" + _Id.ToString();
-            lnkReply.NavigateUrl = "AnswerReply.aspx?Id" + _Id.ToString();
+            lnkDelete.NavigateUrl = "AnswerDelete?Id=" + _Id.ToString();
+            lnkModify.NavigateUrl = "AnswerModify?Id=" + _Id.ToString();
+            lnkReply.NavigateUrl = "AnswerReply?Id" + _Id.ToString();
 
             
             if (!Page.IsPostBack)
