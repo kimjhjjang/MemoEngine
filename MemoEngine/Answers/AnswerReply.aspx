@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Dashboard/DashboardCore.Master" AutoEventWireup="true" CodeBehind="AnswerEdit.aspx.cs" Inherits="MemoEngine.Answers.AnswerEdit" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Dashboard/DashboardCore.Master" AutoEventWireup="true" CodeBehind="AnswerReply.aspx.cs" Inherits="MemoEngine.Answers.AnswerReplay" %>
 
 <%@ Register Src="~/Answers/Controls/BoardEditorFormControl.ascx" TagPrefix="uc1" TagName="BoardEditorFormControl" %>
 
@@ -9,7 +9,7 @@
           <ol class="breadcrumb border-0 m-0">
             <li class="breadcrumb-item">Home</li>
             <li class="breadcrumb-item"><a href="#">Admin</a></li>
-            <li class="breadcrumb-item active">글수정</li>
+            <li class="breadcrumb-item active">글답변</li>
             <!-- Breadcrumb Menu-->
           </ol>
 </asp:Content>

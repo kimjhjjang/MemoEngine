@@ -317,9 +317,9 @@
     <Content Include="Answers\AnswerCreate.aspx" />
     <Content Include="Answers\AnswerDelete.aspx" />
     <Content Include="Answers\AnswerDetails.aspx" />
-    <Content Include="Answers\AnswerEdit.aspx" />
+    <Content Include="Answers\AnswerModify.aspx" />
     <Content Include="Answers\AnswerIndex.aspx" />
-    <Content Include="Answers\AnswerReplay.aspx" />
+    <Content Include="Answers\AnswerReply.aspx" />
     <Content Include="Answers\BoardDown.aspx" />
     <Content Include="Answers\Controls\AdvancedPagingSingleWithBootstrap.ascx" />
     <Content Include="Answers\Controls\BoardCommentControl.ascx" />
@@ -336,7 +336,6 @@
     </Content>
     <Content Include="bin\MemoEngine.dll" />
     <Content Include="bin\MemoEngine.pdb" />
-    <Content Include="BoardFile\Answers\Answers.txt" />
     <Content Include="BusinessType.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -690,12 +689,12 @@
     <Compile Include="Answers\AnswerDetails.aspx.designer.cs">
       <DependentUpon>AnswerDetails.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Answers\AnswerEdit.aspx.cs">
-      <DependentUpon>AnswerEdit.aspx</DependentUpon>
+    <Compile Include="Answers\AnswerModify.aspx.cs">
+      <DependentUpon>AnswerModify.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Answers\AnswerEdit.aspx.designer.cs">
-      <DependentUpon>AnswerEdit.aspx</DependentUpon>
+    <Compile Include="Answers\AnswerModify.aspx.designer.cs">
+      <DependentUpon>AnswerModify.aspx</DependentUpon>
     </Compile>
     <Compile Include="Answers\AnswerIndex.aspx.cs">
       <DependentUpon>AnswerIndex.aspx</DependentUpon>
@@ -704,12 +703,12 @@
     <Compile Include="Answers\AnswerIndex.aspx.designer.cs">
       <DependentUpon>AnswerIndex.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Answers\AnswerReplay.aspx.cs">
-      <DependentUpon>AnswerReplay.aspx</DependentUpon>
+    <Compile Include="Answers\AnswerReply.aspx.cs">
+      <DependentUpon>AnswerReply.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Answers\AnswerReplay.aspx.designer.cs">
-      <DependentUpon>AnswerReplay.aspx</DependentUpon>
+    <Compile Include="Answers\AnswerReply.aspx.designer.cs">
+      <DependentUpon>AnswerReply.aspx</DependentUpon>
     </Compile>
     <Compile Include="Answers\BoardDown.aspx.cs">
       <DependentUpon>BoardDown.aspx</DependentUpon>
@@ -860,6 +859,7 @@
     <Folder Include="Answers\BoardFiles\" />
     <Folder Include="Answers\Document4\" />
     <Folder Include="Answers\Images\" />
+    <Folder Include="BoardFiles\Answers\" />
     <Folder Include="Controllers\" />
   </ItemGroup>
   <ItemGroup>

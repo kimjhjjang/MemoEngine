@@ -32,9 +32,9 @@ namespace MemoEngine.Answers
 
             lnkDelete.NavigateUrl = "AnswerDelete?Id=" + _Id.ToString();
             lnkModify.NavigateUrl = "AnswerModify?Id=" + _Id.ToString();
-            lnkReply.NavigateUrl = "AnswerReply?Id" + _Id.ToString();
+            lnkReply.NavigateUrl = "AnswerReply?Id=" + _Id.ToString();
 
-            
+
             if (!Page.IsPostBack)
             {
                 DisplayData();
