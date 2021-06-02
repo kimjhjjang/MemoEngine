@@ -1,30 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Configuration;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
 
 namespace MemoEngine.Answers.Controls
 {
     public partial class MainSummaryWithThumbNail : System.Web.UI.UserControl
     {
-        private readonly AnswerRepository repository;
-
-        public MainSummaryWithThumbNail()
-        {
-            repository = new AnswerRepository(
-                ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
-        }
-
-        // MVC 프레임워크 흉내
-        public List<ArticleBase> Model { get; set; }
-
         protected void Page_Load(object sender, EventArgs e)
         {
-            DisplayData();
-        }
 
-        private void DisplayData()
-        {
-            Model = repository.GetAll(1, 8);
         }
     }
 }

@@ -1,72 +1,17 @@
 ﻿using System;
-using System.Drawing;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
 
 namespace MemoEngine.Answers
 {
     public partial class ThumbNail : System.Web.UI.Page
     {
-        // 썸네일 생성ㄱ
         protected void Page_Load(object sender, EventArgs e)
         {
-            int boxWidth = 100;
-            int boxHeight = 100;
-            double scale = 0;
 
-            //파일 이름 설정
-            string fileName = String.Empty;
-            string selectedFile = String.Empty;
-
-            if (Request["FileName"] != null && Request["FileName"] != "")
-            {
-                selectedFile = Request.QueryString["FileName"];
-                fileName = Server.MapPath("/BoardFiles/Answers/" + selectedFile);
-
-            }
-            else
-            {
-                selectedFile = "/images/dnn/img.jpg"; // 기본 이미지로 초기화
-                fileName = Server.MapPath(selectedFile);
-            };
-
-
-            // 이미지 비율에 맞게 가로 세로값 변경
-            int tmpW = 0;
-            int tmpH = 0;
-
-            if (Request.QueryString["Width"] != null && Request.QueryString["Height"] != null)
-            {
-                tmpW = Convert.ToInt32(Request.QueryString["Width"]);
-                tmpH = Convert.ToInt32(Request.QueryString["Height"]);
-            }
-
-            if (tmpW > 0 && tmpH > 0)
-            {
-                boxWidth = tmpW;
-                boxHeight = tmpH;
-            }
-
-            // 새 이미지 생성
-            Bitmap b = new Bitmap(fileName);
-
-            if(b.Height < b.Width)
-            {
-                scale = ((double)boxHeight) / b.Width;
-            }
-            else
-            {
-                scale = ((double)boxWidth) / b.Height;
-            }
-
-            // 새 너비와 높이를 설정한다.
-            int newWidth = (int)(scale * b.Width);
-            int newHeight = (int)(scale * b.Height);
-
-            // 출력 비트맵을 생성 출력
-            Bitmap bOut = new Bitmap(b, newWidth, newHeight);
-            bOut.Save(Response.OutputStream, b.RawFormat);
-
-            b.Dispose();
-            bOut.Dispose();
         }
     }
 }

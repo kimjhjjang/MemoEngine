@@ -2,8 +2,6 @@
 
 <%@ Register Src="~/Answers/Controls/AdvancedPagingSingleWithBootstrap.ascx" TagPrefix="uc1" TagName="AdvancedPagingSingleWithBootstrap" %>
 <%@ Register Src="~/Answers/Controls/BoardSearchFormSingleControl.ascx" TagPrefix="uc1" TagName="BoardSearchFormSingleControl" %>
-<%@ Register Src="~/Answers/Controls/MainSummaryWithThumbNail.ascx" TagPrefix="uc1" TagName="MainSummaryWithThumbNail" %>
-
 
 
 
@@ -146,7 +144,6 @@
                 <!-- /.col-->
             </div>
             <%--게시판 리스트 작성 종료--%>
-            <uc1:MainSummaryWithThumbNail runat="server" ID="MainSummaryWithThumbNail" />
         </div>
     </div>
 </asp:Content>
