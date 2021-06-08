@@ -359,6 +359,9 @@
     <Content Include="Account\Web.config" />
     <Content Include="Dashboard\DashboardCore.Master" />
     <Content Include="Blank.aspx" />
+    <None Include="Properties\PublishProfiles\myanswers - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\myanswers - ReadOnly - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\myanswers - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="images\dnn\blank.gif" />
     <Content Include="images\dnn\commentcount.gif" />
