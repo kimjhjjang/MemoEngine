@@ -874,10 +874,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Dul\Dul.csproj">
-      <Project>{51fe2a3a-ebb4-4b7a-8316-d4f3fe6737fe}</Project>
-      <Name>Dul</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MemoEngine.Answers\MemoEngine.Answers.csproj">
       <Project>{26f79087-b1aa-4701-aae4-e1b841c275ce}</Project>
       <Name>MemoEngine.Answers</Name>
